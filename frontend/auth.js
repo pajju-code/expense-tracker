@@ -2,7 +2,7 @@
 // Small helper functions shared across pages for talking to the API
 // and managing the JWT stored in the browser.
 
-const API_BASE = 'https://expense-tracker-1-ezbr.onrender.com';
+const API_BASE = 'http://localhost:4000';
 
 function saveToken(token) {
   // In-memory + localStorage would be typical in a real app; for this
